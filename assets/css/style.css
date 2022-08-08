@@ -1,0 +1,301 @@
+/* Inhalt
+
+11 Coffee & Co
+Menu/Story/Catering/Cakes/Contact
+HELLO!
+We are more than your normal coffee shop; we are a part of your everyday lives.  Our passion and love of home-cooked meal is portrayed in every dish we serve.
+Come and choose from our heartily and healthy all day brunch, sexy salads or good old fashioned specials with a taste of Persia.  We have excellent coffee, speciality teas and an array of freshly pressed juices and smoothies.  And last but by far not the least, we have freshly baked cakes which will put a smile on your face.
+OUR MENU
+Full Menu
+DAILY BREWS
+BOTTOMLESS BROWN
+100% Columbian - organic certified, medium roasted, free in-house refills or large take-out
+CAFE AU LAIT
+Columbian roast coffee + steamed milk
+HANDMADE COFFEES
+FRENCH PRESS
+see our coffee tab for more information on our single origin coffee selections
+CHEMEX POUR OVER
+see our coffee tab for more information on our single origin coffee selections
+OUR STORY
+I started my first coffee shop in 2004 in Hampstead Garden Suburbs after deciding to give up my 9 to 5 job in the city. With no catering experience, the only way I knew how to operate a business was NOT to look at it as a business. I treated it like my home and all the customers were guests in my home.
+After 13 years, I still stand by the same principle as I have not yet learnt the art of the business but have mastered the art of being a host. We buy the best fresh ingredients and cook the food I serve to my family at home. Everything is freshly cooked on site and served immediately to our guests.
+CATERING SERVICES
+A voyage in the tastes and perfumes of the Silk Road… Persia on a platter.
+Reinventing Persian family recipes with subtle and varied flavours for an exotic Persian taste.
+Whatever your special occasion, from family dinners to corporate events and galleries to weddings, we can cater to make a memorable experience for everyone involved.
+Party Menu
+OUR CAKES
+NO ADDITIVES NO PRESERVATIVES and NO COLOURING is the motto we live by. We also always try to have a gluten free and vegan option on display for those guests with special dietary requirements.
+Get In Touch
+11 Coffee & Co.
+Copyright © 2015-20. All rights reserved.
+Video & Photography by Momo Pixel
+
+Assets:
+Font: Special Elite; Exo, sans-serif;
+Farbe: #000, #fff;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@400;700&family=Special+Elite&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Special Elite", sans-serif;
+}
+/* body {
+  width: 1440px;
+} */
+/* body {
+  width: 100%;
+} */
+/* ===== HEADER =====*/
+nav {
+  padding: 2% 0;
+}
+nav ul {
+  text-align: right;
+  padding-right: 2%;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  color: black;
+  padding: 1vw;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+/* ===== MAIN =====*/
+/* ===== SECTION1 bg =====*/
+main section:nth-of-type(1) {
+  background: url(../img/bg.jpeg) center/cover no-repeat;
+  padding: 50vh 0 35vh 0;
+}
+main h1 {
+  text-align: left;
+}
+/* ===== SECTION2 HELLO! + beans_icon =====*/
+main section:nth-of-type(2) {
+  background: url(../img/beans_icon.png) center/cover no-repeat;
+  padding: 25vh 0;
+}
+main section:nth-of-type(2) article {
+  padding-left: 5rem;
+}
+main section:nth-of-type(2) p:first-child {
+  font-family: "Exo", sans-serif;
+  font-size: 4.6rem;
+  font-weight: bold;
+}
+main section:nth-of-type(2) p:nth-of-type(2) {
+  width: 50%;
+  padding-top: 1rem;
+}
+main section:nth-of-type(2) p:last-child {
+  width: 50%;
+  padding-top: 1rem;
+}
+
+/* ===== SECTION3 bridge_1 =====*/
+main section:nth-of-type(3) {
+  background: url(../img/bridge_1.jpg) center/cover no-repeat;
+  background-attachment: fixed;
+  padding: 25vh 0;
+}
+/* ===== SECTION4 OUR MENU =====*/
+main section:nth-of-type(4) {
+  padding: 25vh 0;
+  background: url(..//img/cake_icon.png) center/cover no-repeat;
+  text-align: center;
+}
+main section:nth-of-type(4) img {
+  width: 5%;
+}
+main section:nth-of-type(4) a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+main section:nth-of-type(4) a:hover {
+  text-decoration: underline;
+}
+main section:nth-of-type(4) h2 {
+  font-family: "Exo", sans-serif;
+  font-size: 4.6rem;
+  font-weight: bold;
+}
+main section:nth-of-type(4) h3 {
+  font-family: "Exo", sans-serif;
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+main section:nth-of-type(4) article:nth-of-type(1) p,
+main section:nth-of-type(4) article:nth-of-type(4) p {
+  font-family: "Exo", sans-serif;
+  font-size: 2.6rem;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+/* Articel 2 3 5 6 Rahmen */
+main section:nth-of-type(4) article:nth-of-type(2),
+article:nth-of-type(3),
+article:nth-of-type(5),
+article:nth-of-type(6) {
+  border: 1px solid #000;
+  width: 35%;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+/* ===== SECTION5 bridge_2 =====*/
+main section:nth-of-type(5) {
+  background: url(../img/bridge_2.jpg) center/cover no-repeat;
+  background-attachment: fixed;
+  padding: 25vh 0;
+}
+/* ===== SECTION6 OUR STORY  =====*/
+main section:nth-of-type(6) {
+  padding: 25vh 0;
+}
+main section:nth-of-type(6) p:nth-of-type(1) {
+  font-family: "Exo", sans-serif;
+  font-size: 2.9rem;
+  font-weight: bold;
+  padding-left: 15rem;
+}
+main section:nth-of-type(6) p:nth-of-type(2),
+main section:nth-of-type(6) p:nth-of-type(3) {
+  width: 30vw;
+  padding-top: 1rem;
+  padding-left: 15rem;
+}
+main section:nth-of-type(6) img {
+  margin: -12rem 0 0 43vw;
+  display: inline-block;
+  width: 37%;
+}
+/* ===== SECTION7 bridge_3 =====*/
+main section:nth-of-type(7) {
+  background: url(../img/bridge_3.jpg) center/cover no-repeat;
+  background-attachment: fixed;
+  padding: 25vh 0;
+}
+/* ===== SECTION8 CATERING SERVICES =====*/
+main section:nth-of-type(8) {
+  padding: 25vh 0;
+  background: url(../img/pie_icon.png) center/cover no-repeat;
+  background-size: 40% auto;
+  background-position: right;
+}
+main section:nth-of-type(8) p:nth-of-type(1) {
+  font-family: "Exo", sans-serif;
+  font-size: 2.9rem;
+  font-weight: bold;
+  padding-left: 50rem;
+}
+main section:nth-of-type(8) p:nth-of-type(2),
+main section:nth-of-type(8) p:nth-of-type(3),
+main section:nth-of-type(8) p:nth-of-type(4) {
+  width: 25vw;
+  padding-top: 1rem;
+  padding-left: 50rem;
+}
+main section:nth-of-type(8) a {
+  display: block;
+  width: 6rem;
+  text-align: center;
+  margin-left: 50rem;
+  margin-top: 1rem;
+  padding: 0.4rem;
+  background-color: transparent;
+  text-decoration: none;
+  border: 1px solid black;
+  color: #000;
+}
+main section:nth-of-type(8) a:hover {
+  text-decoration: underline;
+}
+main section:nth-of-type(8) img {
+  margin: -10rem 14% 0;
+  display: inline-block;
+  width: 37%;
+}
+/* ===== SECTION9 bridge_4 =====*/
+main section:nth-of-type(9) {
+  background: url(../img/bridge_4.jpeg) center/cover no-repeat;
+  background-attachment: fixed;
+  padding: 25vh 0;
+}
+/* ===== SECTION10 The END =====*/
+main section:nth-of-type(10) {
+  padding: 25vh 0;
+  background: url(../img/muffin_icon.png) center/cover no-repeat;
+  background-size: 40% auto;
+  background-position: left;
+}
+main section:nth-of-type(10) p:nth-of-type(1) {
+  font-family: "Exo", sans-serif;
+  font-size: 2.9rem;
+  font-weight: bold;
+  padding-left: 50rem;
+}
+main section:nth-of-type(10) p:nth-of-type(2) {
+  width: 25vw;
+  padding-top: 1rem;
+  padding-left: 50rem;
+}
+main section:nth-of-type(10) a {
+  display: block;
+  width: 7rem;
+  text-align: center;
+  margin-left: 50rem;
+  margin-top: 1rem;
+  padding: 0.4rem;
+  background-color: transparent;
+  text-decoration: none;
+  border: 1px solid black;
+  color: #000;
+}
+main section:nth-of-type(10) a:hover {
+  text-decoration: underline;
+}
+main section:nth-of-type(10) img {
+  margin: -10rem 14% 0;
+  display: inline-block;
+  width: 37%;
+}
+main section:nth-of-type(10) img {
+  margin: -11rem 14% 0;
+  display: inline-block;
+  width: 37%;
+}
+
+/* ===== FOOTER =====*/
+footer {
+  padding: 5vh 0;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+}
+footer p:first-child {
+  font-family: "Exo", sans-serif;
+  font-size: 3.9rem;
+  font-weight: bold;
+  text-align: center;
+}
+footer p {
+  font-size: 2.9rem;
+}
+footer a img {
+  display: block;
+  width: 7%;
+  margin: 0 auto;
+}
+footer img {
+  display: block;
+  width: 15%;
+  margin: 0 auto;
+}
